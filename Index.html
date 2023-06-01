@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylemainmenu.css">
+    <title>Mother India</title>
+</head>
+<body>
+   <section class="showcase">
+       <header>
+           <h2 class="logo">MISS</h2>
+           <div class="toggle"></div>
+       </header>
+       <video src="stationary.mp4" muted loop autoplay></video>
+       <div class="overlay"></div>
+       <div class="text">
+           <h2>Mother India Sales and Supply</h2>
+           <p>Mother india and General Order Supplier in Bhubaneshwar is one of the leading businesses in the Stationery Shops. Also known for Stationery Shops, Office Stationery Dealers, Sticker Dealers, Craft Material Dealers, Art Material Dealers, Office Stationery Wholesalers, Water Bottle Dealers, Pen Dealers and much more.</p>
+        <a href="Login.html">Explore</a>
+        </div>
+   </section> 
+
+   <div class="menu">
+       <ul>
+           <li><a href="about.html">About</a></li>
+           <li><a href="reachus.html">Reach us</a></li>
+           <li><a href="mission.html">Mission</a></li>
+           <li><a href="vision.html">Vision</a></li>
+           <li><a href="Login.html">Login</a></li>
+       </ul>
+    </div>
+
+
+<script>
+    const menuToggle = document.querySelector('.toggle');
+     const showcase = document.querySelector('.showcase');
+
+     menuToggle.addEventListener('click', () => {
+         menuToggle.classList.toggle('active');
+         showcase.classList.toggle('active');
+     })
+
+</script>
+
+
+</body>
+</html>

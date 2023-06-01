@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/png" href="download2.svg" style="border-radius: 50%;">
+<link rel="stylesheet" href="style.css">
+<style>
+    input[type=text]{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 3px solid rgb(103, 103, 103);
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+    }
+</style>
+</head>
+<body onload="showTime()" >
+    <nav>
+        <div class = "logo">
+            <center><a href="Index.html" style="color: white;font-weight: bold; text-decoration: none; align-items: center;letter-spacing: 0.1rem;"><span>ADMIN LOGIN</span></a></center></h4>
+        </div>
+    </nav>
+    <br><br>
+    <form name= "f1" action="Logins.jsp"  method="POST" >
+    <center>
+    <table border="0" width="350"><br>
+    <div>
+        <img src="img_avatar2.png" alt="" style="width:10.5%; border-radius: 50% ;"><br><br><br>
+        <tr>
+            <td><input type="text" name="Username" id="" placeholder="Username..."></td>
+        </tr>
+        <tr>
+            <td><input type="text" name="Password" id="" placeholder="Password..."></td>
+        </tr>
+    </div>
+    </table><br>
+    <input type="submit" name="btmsub" class="button button1" value="Submit">
+    <input type="reset" name="btmres" class="button button3" value="Cancel">
+    </center>
+    </form><br><br><br><br><br>
+    <nav>
+        <div class = "footer">
+            <h3>&copy; Mother India Sales and Supply</h3>
+        </div>
+    </nav>
+</body>
+</html>
